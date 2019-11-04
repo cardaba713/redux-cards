@@ -7,6 +7,8 @@ import Home from "pages/Home";
 import Login from "pages/Login";
 import Board from "pages/Board";
 import Drinks from "pages/Drinks";
+import Instruments from "pages/Instruments";
+
 import GlobalStyles from "./styled";
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
           <Login path="/login" />
           <Board path="/board" />
           <Drinks path="/drinks" />
+          <Instruments path="/instruments" />
         </Router>
       </main>
     </>
